@@ -1,6 +1,6 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
-#body-1, #body-2, #body-3, #html-1, #home{
+#body-1, #body-2, #html-1, #home{
     height: 100%;
     overflow-x: hidden;
 }
@@ -329,9 +329,9 @@ p{
     width: 35px;
   }
   .span-contato{
-      font-family: B;
+      font-family: b;
       color: white;
-      font-size: 11pt;
+      font-size: 14pt;
   }
   a:hover{
     text-decoration: none;
@@ -534,4 +534,16 @@ p{
     text-align: center;
     width: 100%;
     z-index: 999;
+  }
+  #botao2{
+    color: white;
+    font-family: A;
+    width: 200px !important;
+  }
+  label{
+    font-family: A;
+    color: white;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
   }
