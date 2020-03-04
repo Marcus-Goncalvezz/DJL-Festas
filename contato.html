@@ -70,21 +70,21 @@
                         <div class="col-md-12">
                             <form class="form-group" action="./email.php" method="POST">
                                 <label class="text-left" for="nome">Nome</label>
-                                <input class="form-control" type="text" placeholder="Digite seu nome" name="nome" id="nome">
+                                <input class="form-control" type="text" placeholder="Digite seu nome" name="nome" id="nome" required>
                                 <label for="email">E-mail</label>
-                                <input class="form-control"  type="email" placeholder="Digite seu email" name="email" id="email">    
+                                <input class="form-control"  type="email" placeholder="Digite seu email" name="email" id="email" required>    
                                 <label for="telefone">Telefone</label>
-                                <input class="form-control" type="text" name="telefone" id="telefone" placeholder="Digite seu número">
+                                <input class="form-control" type="text" name="telefone" id="telefone" placeholder="Digite seu número" required>
                                 <label for="evento">Tipo de Evento</label>
-                                <input class="form-control" type="text" name="evento" id="evento" placeholder="Digite o tipo de evento">
+                                <input class="form-control" type="text" name="evento" id="evento" placeholder="Digite o tipo de evento" required>
                                 <label for="pessoas">Quantidade de Pessoas</label>
-                                <input class="form-control" type="text" name="pessoas" id="pessoas" placeholder="Digite a quantidade de pessoas">
+                                <input class="form-control" type="text" name="pessoas" id="pessoas" placeholder="Digite a quantidade de pessoas" required>
                                 <label for="data">Data do Evento</label>
                                 <input class="form-control" type="date" name="data" id="data">
                                 <label for="local">Local do Evento</label>
-                                <input class="form-control" type="text" name="local" id="local" placeholder="Digite o local do evento">
+                                <input class="form-control" type="text" name="local" id="local" placeholder="Digite o local do evento" required>
                                 <label for="msg">Mensagem</label>
-                                <input class="form-control" type="text" name="msg" id="msg" placeholder="Tire suas dúvidas perguntando aqui!">                      
+                                <input class="form-control" type="text" name="msg" id="msg" placeholder="Tire suas dúvidas perguntando aqui!" required>       
                                 <div class="text-center"><input type="submit" class="btn btn-warning mt-3" id="botao2" value="Enviar"></div>
                             </form>
                         </div>
