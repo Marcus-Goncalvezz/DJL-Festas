@@ -242,7 +242,7 @@ p{
       .galeria2{
           min-width: 0px;
       }
-      iframe{
+      #sound{
         width: 100% !important;
       }
   }
