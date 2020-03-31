@@ -1,14 +1,14 @@
 # DJL Festas
-Meu primeiro projeto, um site simples com foco no visual para divulgação de uma empresa. <br>
-Foi utilizado as linguagens e libs:
-* HTML 
-* CSS
-* JS
-* PHP (Para envio de e-mails) <br>
-* Pace.js (Para um loading visualmente agradável)
-* Lightbox (Para a Galeria de imagens)
-* Bootstrap (Para ser mais fácil e rápido o desenvolvimento)
-* Normalize (Para padronização em todos navegadores) <br>
+My first project, a simple website with a focus on the visual for advertising a company. <br>
+Languages and libraries were used:
+* HTML (For front-end)
+* CSS (For front-end)
+* JS (For front-end)
+* PHP (For sending emails) <br>
+* Pace.js (For visually good loading)
+* Lightbox (For make the gallery)
+* Bootstrap (For make development easier and faster)
+* Normalize (For standardization in all browsers) <br>
 # Imagens do site <br>
 ![alt text](https://i.imgur.com/YIYFOwG.png)<br>
 ![alt text](https://i.imgur.com/fTcUmh4.png)<br>
