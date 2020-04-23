@@ -125,7 +125,7 @@ ul li a:hover{
         max-width: 70px;
     }
     span{
-        font-size: 9pt !important;
+        font-size: 13pt !important;
     }
     .cards-quemsomos{
         height: 330px;
@@ -519,21 +519,10 @@ p{
         height: 400px;
     }
   }
-  /* Loading */
-  .loader {
-    background: rgb(255, 255, 255);
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    z-index: 999;
+  @media (max-width: 365px){
+    #emailContato{
+        font-size: 10pt;
+    }
   }
   #botao2{
     color: white;

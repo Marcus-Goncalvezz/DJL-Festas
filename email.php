@@ -7,7 +7,7 @@ $pessoas = addslashes($_POST["pessoas"]);
 $data = addslashes($_POST["data"]);
 $local = addslashes($_POST["local"]);
 $msg = addslashes($_POST["msg"]);
-
+$data = date('d/m/Y', strtotime($data));
 
 $to = "orcamento@djlfestas.com.br";
 $subjet = "Contato DJL FESTAS";
@@ -20,9 +20,10 @@ $body = "Nome:".$nome. "\r\n".
         "Local do Evento: ".$local."\r\n".
         "Mensagem: ".$msg."\r\n";
 $header = "From:contrato@djlfestas.com.br"."\r\n"."Reply-To ".$email."\r\n"."X=Mailer:PHP/".phpversion();
+
 if(mail($to,$subjet,$body,$header)){
-    echo("Sua mensagem foi enviada com sucesso!");
+    header('Location: contato.html?status=success');
 }else{
-    echo("Email não enviado");
+    header('Location: contato.html?status=error');
 }
 ?>
