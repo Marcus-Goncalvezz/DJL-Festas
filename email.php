@@ -21,7 +21,6 @@ $body = "Nome:".$nome. "\r\n".
         "Local do Evento: ".$local."\r\n".
         "Mensagem: ".$msg."\r\n";
 $header = "From:contrato@djlfestas.com.br"."\r\n"."Reply-To ".$email."\r\n"."X=Mailer:PHP/".phpversion();
-echo 'success';
 if(mail($to,$subjet,$body,$header)){
     echo 'success';
 }else{
