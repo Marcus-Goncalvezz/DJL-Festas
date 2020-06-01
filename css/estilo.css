@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    background-image:url(../images/foto.jpg);
+    background-image:url(../images/fotoblur.jpg);
 }
 #home:before {
     -webkit-transition: opacity 3s ease;
@@ -37,7 +37,7 @@
     background-image: url(../images/evento-10.jpg) !important;
 }
 #body-3 #home{
-    background-image:url(../images/evento-28.jpg) !important;
+    background-image:url(../images/evento-28blur.jpg) !important;
 }
 body{
     overflow-x: hidden;

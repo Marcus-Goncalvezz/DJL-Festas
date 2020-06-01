@@ -1,12 +1,13 @@
 <?php
-$nome = addslashes($_POST["nome"]);
-$email = addslashes($_POST["email"]);
-$telefone = addslashes($_POST["telefone"]);
-$evento = addslashes($_POST["evento"]);
-$pessoas = addslashes($_POST["pessoas"]);
-$data = addslashes($_POST["data"]);
-$local = addslashes($_POST["local"]);
-$msg = addslashes($_POST["msg"]);
+
+$nome = addslashes($_GET["nome"]);
+$email = addslashes($_GET["email"]);
+$telefone = addslashes($_GET["telefone"]);
+$evento = addslashes($_GET["evento"]);
+$pessoas = addslashes($_GET["pessoas"]);
+$data = addslashes($_GET["data"]);
+$local = addslashes($_GET["local"]);
+$msg = addslashes($_GET["msg"]);
 $data = date('d/m/Y', strtotime($data));
 
 $to = "orcamento@djlfestas.com.br";
@@ -20,10 +21,10 @@ $body = "Nome:".$nome. "\r\n".
         "Local do Evento: ".$local."\r\n".
         "Mensagem: ".$msg."\r\n";
 $header = "From:contrato@djlfestas.com.br"."\r\n"."Reply-To ".$email."\r\n"."X=Mailer:PHP/".phpversion();
-
+echo 'success';
 if(mail($to,$subjet,$body,$header)){
-    header('Location: contato.html?status=success');
+    echo 'success';
 }else{
-    header('Location: contato.html?status=error');
+    echo 'error';
 }
 ?>
