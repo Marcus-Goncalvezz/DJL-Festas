@@ -72,10 +72,14 @@ ul li a:hover{
 }
 /*MEDIA QUIERES*/
 @media (max-width: 575.98px) { 
+    .positionLeft{
+        position: relative;
+        right: 5px;
+    }
     #msgInicial{
         font-size: 17px;
     }
-    #somos{
+    .somos{
         width: 150px !important;
         height: 150px !important;
     }
@@ -558,7 +562,7 @@ p{
     margin-top: 10px;
     padding: 0;
   }
-  #somos{
+  .somos{
       width: 300px;
       height: 240px;
   }
@@ -566,4 +570,7 @@ p{
       color: white;
       font-family: B;
       font-size: 20px;
+  }
+  #msgInicial{
+      font-family: B;
   }
