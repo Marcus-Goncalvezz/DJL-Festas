@@ -1,0 +1,564 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+#body-1, #body-2, #html-1, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+#home{
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-image:url(../images/fotoblur.jpg);
+}
+#home:before {
+    -webkit-transition: opacity 3s ease;
+    -o-transition: opacity 3s ease;
+    transition: opacity 3s ease;
+    -webkit-transition-delay: 1.25s;
+    -o-transition-delay: 1.25s;
+       transition-delay: 1.25s;
+    content: '';
+    display: block;
+    background-color: #251c04;
+    height: 100%;
+    left: 0;
+    opacity: 0.45;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#body-quemsomos{
+    background-color: #ffc107;
+}
+.home-parceiros{
+    background-image: url(../images/evento-10.jpg) !important;
+}
+#body-3 #home{
+    background-image:url(../images/evento-28blur.jpg) !important;
+}
+body{
+    overflow-x: hidden;
+}
+.trans{
+    background: rgba(0, 0, 0, 0.479);
+    padding: 0px 0px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar{
+    height: 60px;
+}
+#body-2{
+        background-size: cover;
+        background-image: url(../images/evento-10.jpg);
+}
+@font-face{
+    font-family: A;
+    src: url(../font/Signika-Bold.ttf);
+}
+.fonte{
+    font-family: A;
+    color: white;
+}
+#logo{
+    width: 450px;
+}
+ul li a:hover{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+/*MEDIA QUIERES*/
+@media (max-width: 575.98px) { 
+    #msgInicial{
+        font-size: 17px;
+    }
+    #somos{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    #liveCanoas{
+        max-width: 200px;
+    }
+    h1.display-1{font-size: 2.0em;}
+    #logo{width: 300px;}
+    #nav-target{
+        background: rgba(0, 0, 0, 0.479);
+    }
+    #logo-menu{
+        width: 125px !important;
+        height: 40px !important;
+        margin-left: 10px !important;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    .one-third{
+        float: none !important;
+    }
+    h1.text-contato{
+        font-size: 20pt !important;
+    }
+    #quem-somos-card{
+        margin-bottom: 20px;
+    }
+    .cards-quemsomos-1{
+        height: 630px;
+        background-size: cover;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #msgInicial{
+        font-size: 17px;
+    }
+    h1.display-1{font-size: 2.5em;}
+    #logo{width: 350px;}
+    .btn{
+        margin-bottom: 10px;
+    }
+    .one-third{
+        float: none !important;
+    }
+    h1.text-contato{
+        font-size: 25pt !important;
+    }
+    #quem-somos-card{
+        margin-bottom: 20px;
+    }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #msgInicial{
+        font-size: 17px;
+    }
+    h1.display-1{font-size: 3.0em;}
+    #logo{width: 400px;}
+    .btn{
+        margin-right: 10px;
+        max-width: 70px;
+    }
+    span{
+        font-size: 13pt !important;
+    }
+    .cards-quemsomos{
+        height: 330px;
+    }
+    .cards-quemsomos-1{
+        height: 830px;
+        background-size: cover;
+    }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #msgInicial{
+        font-size: 22px;
+    }
+    h1{font-size: 5em;}
+    .cards-quemsomos{
+        height: 330px;
+    }
+    .cards-quemsomos-1{
+        height: 630px;
+        background-size: cover;
+    }  
+ }
+
+@media (min-width: 1200px) { 
+    #msgInicial{
+        font-size: 25px;
+    }
+    h1.display-1{
+        font-size: 5em;
+    }
+}
+.navbar-light .navbar-toggler{
+    height: 50px;
+    border: none;
+}
+#sessao-1{
+    background: rgb(255, 255, 255);
+    padding-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.icone{
+    width: 200px;
+}
+h1{
+    font-family: A;
+    margin-bottom: 5px;
+    font-size: 18pt;
+}
+p{
+    font-family: B;
+    font-size: 15pt;
+}
+@font-face{
+    font-family: B;
+    src: url(../font/Signika-Regular.ttf);
+}
+#sessao-2{
+    background: #ffc107;
+    padding: 0;
+}
+#sessao-2 h1{
+    color: white;
+    font-size: 25pt;
+}
+#sessao-3{
+    background-color: white;
+    padding: 10px 0px;
+    color: black;
+}
+#sessao-3 h1{
+    font-size: 20pt;
+    font-family: B;
+}
+#sessao-3 button{
+    font-family: A;
+}
+#sessao-3 p{
+    font-size: 10pt;
+}
+#botao{
+    position: relative;
+    right: 10px;
+}
+#gallery{
+    margin: 10px 50px;
+    margin-top: 50px;
+    background-color: #ffc107 !important;
+}
+#gallery img {
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    padding: 3px;
+    width: 200px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+}
+#gallery img:hover{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.one-third {
+    width: 20%;
+    float: left;
+    padding: 5px;
+}
+.galeria2{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media screen and (max-width: 767px){
+      .galeria2{
+          min-width: 0px;
+      }
+      #sound{
+        width: 100% !important;
+      }
+  }
+.galeria2 iframe{
+    padding: 10px;
+    height: 300px;
+    width: 25%;
+}
+/*PACE*/
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+  
+    -webkit-perspective: 12rem;
+    -ms-perspective: 12rem;
+    -o-perspective: 12rem;
+    perspective: 12rem;
+  
+    z-index: 2000;
+    position: fixed;
+    height: 6rem;
+    width: 6rem;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .pace.pace-inactive .pace-progress {
+    display: none;
+  }
+  
+  .pace .pace-progress {
+    position: fixed;
+    z-index: 2000;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 6rem;
+    width: 6rem !important;
+    line-height: 6rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    background: #000000de;
+    color: rgb(255, 255, 255);
+    font-family: A;
+    font-weight: 100;
+    text-align: center;
+  
+    -webkit-animation: pace-theme-center-circle-spin linear infinite 2s;
+    animation: pace-theme-center-circle-spin linear infinite 2s;
+  
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  
+  .pace .pace-progress:after {
+    content: attr(data-progress-text);
+    display: block;
+  }
+  
+  @-webkit-keyframes pace-theme-center-circle-spin {
+    from { -webkit-transform: rotateY(0deg) }
+    to { -webkit-transform: rotateY(360deg) }
+  }
+  
+  @keyframes pace-theme-center-circle-spin {
+    from { -webkit-transform: rotateY(0deg); transform: rotateY(0deg) }
+    to { -webkit-transform: rotateY(360deg); transform: rotateY(360deg) }
+  }
+  .parceiros iframe{
+      margin: 10px;
+  }
+
+
+  .icons-contato{
+    width: 35px;
+  }
+  .span-contato{
+      font-family: b;
+      color: white;
+      font-size: 14pt;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  #body-3 a:hover{
+    font-weight: bolder;
+  }
+  .icon-c{
+      margin-bottom: 5px;
+  }
+  #map{
+      width: 100%;
+      height: 400px;
+  }
+  .text-contato{
+      margin-top: 0 !important;
+      font-size: 35pt !important;
+  }
+  @media screen and (max-width: 736px){
+    #home {
+    min-height: 0;
+    height: auto !important;
+    padding: 4em 2em;
+}}
+.card-title{
+    font-family: A;
+}
+#body-quemsomos p{
+    font-family: B;
+}
+#card2{
+    -webkit-filter: brightness(50%);
+            filter: brightness(50%);
+}
+#card1{
+    -webkit-filter: brightness(70%);
+            filter: brightness(70%);
+}
+.fade-in {
+    opacity: 0;
+    -webkit-transition: opacity 250ms ease-in;
+    -o-transition: opacity 250ms ease-in;
+    transition: opacity 250ms ease-in;
+  }
+  
+  .fade-in.appear {
+    opacity: 1;
+  }
+  
+  .more-stuff-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 2em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-columns: minmax(1em, 1fr) 2em minmax(200px, 400px) 2em minmax(200px, 400px) 2em minmax(
+        1em,
+        1fr
+      );
+    grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(
+        1em,
+        1fr
+      );
+  }
+  @media (max-width: 500px){
+        #logo{
+            width: 150px !important;
+        }
+        #home h1{
+            font-size: 16pt;
+        }
+  }
+  /*animação*/
+  .fadeLeft {
+    -webkit-animation: fade-in-left 1.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: fade-in-left 1.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+
+  .fadeRight {
+    -webkit-animation: fade-in-right 1.3s cubic-bezier(0.39, 0.575, 0.565, 1)
+      both;
+    animation: fade-in-right 1.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+
+  @-webkit-keyframes fade-in-right {
+    0% {
+      -webkit-transform: translateX(100px);
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-right {
+    0% {
+      -webkit-transform: translateX(100px);
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fade-in-left {
+    0% {
+      -webkit-transform: translateX(-100px);
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-left {
+    0% {
+      -webkit-transform: translateX(-100px);
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  #home{
+    -webkit-animation-name: aparecer;
+            animation-name: aparecer;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+  }
+  .quemsomos{
+    -webkit-animation-name: aparecer;
+            animation-name: aparecer;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+  }
+  @-webkit-keyframes aparecer {
+      0% {
+        opacity: 0;
+      }
+      100%{
+          opacity: 1;
+      }
+  }
+  @keyframes aparecer {
+      0% {
+        opacity: 0;
+      }
+      100%{
+          opacity: 1;
+      }
+  }
+
+  #body-3 #logo{
+      width: 250px;
+  }
+  @media (min-width: 768px){
+    #home{
+        background-attachment: fixed;
+    }
+  }
+  @media (max-width: 424px){
+    .cards-quemsomos-1{
+        height: 730px;
+        background-size: cover;
+    }
+  }
+  @media (max-width: 392px){
+    .cards-quemsomos-1{
+        height: 930px;
+        background-size: cover;
+    }
+    .cards-quemsomos{
+        height: 400px;
+    }
+  }
+  @media (max-width: 365px){
+    #emailContato{
+        font-size: 10pt;
+    }
+  }
+  #botao2{
+    color: white;
+    font-family: A;
+    width: 200px !important;
+  }
+  label{
+    font-family: A;
+    color: white;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+  }
+  #somos{
+      width: 300px;
+      height: 240px;
+  }
