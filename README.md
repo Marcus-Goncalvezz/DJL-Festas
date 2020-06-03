@@ -1,10 +1,9 @@
 # DJL Festas
-My first project, a simple website with a focus on the visual for advertising a company. <br>
+My first real project, a simple website with a focus on the visual for advertising a company. <br>
 Languages and libraries were used:
-* HTML (For front-end)
-* CSS (For front-end)
-* JS (For front-end)
-* PHP (For sending emails) <br>
+* HTML & CSS
+* JavaScript
+* PHP <br>
 * Pace.js (For visually good loading)
 * Lightbox (For make the gallery)
 * Bootstrap (For make development easier and faster)
@@ -12,4 +11,5 @@ Languages and libraries were used:
 # Site Images <br>
 ![alt text](https://i.imgur.com/YIYFOwG.png)<br>
 ![alt text](https://i.imgur.com/fTcUmh4.png)<br>
-![alt text](https://i.imgur.com/jvSVPK2.png)
+The validate is with javascript and it is async
+![alt text](./images/preview.gif)
