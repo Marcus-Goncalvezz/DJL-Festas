@@ -67,6 +67,8 @@ $('#botao2').on('click', event => {
     
     
     if(verificaNome() && verificaEmail() && verificaTelefone() && verificaEvento() && verificaPessoas() && verificaData()){
+        let error = document.querySelector('#error')
+        error.remove()
         let dados = $('form').serialize()
         $.ajax({
         type: 'GET',
