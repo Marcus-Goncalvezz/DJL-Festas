@@ -9,7 +9,12 @@ Languages and libraries were used:
 * Bootstrap (For make development easier and faster)
 * Normalize (For standardization in all browsers) <br>
 # Site Images <br>
+### Index
 ![alt text](https://i.imgur.com/YIYFOwG.png)<br>
 ![alt text](https://i.imgur.com/fTcUmh4.png)<br>
-The validate is with javascript and it is async
+### The validate is with javascript and it is async
 ![alt text](./images/preview.gif)
+### Gallery
+![alt text](./images/galeriaPreview.gif)
+### And it's responsive
+![alt text](./images/smartphonePreview)
