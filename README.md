@@ -17,4 +17,4 @@ Languages and libraries were used:
 ### Gallery
 ![alt text](./images/galeriaPreview.gif)
 ### And it's responsive
-![alt text](./images/smartphonePreview)
+![alt text](./images/smartphonePreview.gif)
